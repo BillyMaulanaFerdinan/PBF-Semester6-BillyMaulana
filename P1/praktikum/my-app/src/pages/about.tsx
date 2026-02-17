@@ -9,9 +9,9 @@ const About = () => {
       </Head>
       <h1>Halaman About</h1>
       <hr />
-      <p><strong>Nama Mahasiswa:</strong> [Isi Nama Kamu]</p>
-      <p><strong>NIM:</strong> [Isi NIM Kamu]</p>
-      <p><strong>Program Studi:</strong> [Isi Program Studi Kamu]</p>
+      <p><strong>Nama Mahasiswa:</strong> [Billy Maulana Ferdinan]</p>
+      <p><strong>NIM:</strong> [2341720196]</p>
+      <p><strong>Program Studi:</strong> [D4 - Teknik Informatika]</p>
     </div>
   );
 };
