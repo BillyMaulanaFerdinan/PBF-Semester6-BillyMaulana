@@ -7,11 +7,7 @@ const About = () => {
       <Head>
         <title>Halaman About</title>
       </Head>
-      <h1>Halaman About</h1>
-      <hr />
-      <p><strong>Nama Mahasiswa:</strong> [Billy Maulana Ferdinan]</p>
-      <p><strong>NIM:</strong> [2341720196]</p>
-      <p><strong>Program Studi:</strong> [D4 - Teknik Informatika]</p>
+      <h1>Ini Halaman About</h1>  
     </div>
   );
 };
