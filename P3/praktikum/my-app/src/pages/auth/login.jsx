@@ -5,22 +5,20 @@ const HalamanLogin = () => {
   const { push } = useRouter();
 
   const handlerLogin = () => {
-    // logic login disini
-    push('/produk');
+    // simulasi login berhasil
+    push("/produk"); // navigasi imperatif
   };
 
   return (
     <div>
       <h1>Halaman Login</h1>
-      
-      {/* Berbagai cara penggunaan push router pada button */}
-      <button onClick={handlerLogin}>Login</button> <br />
-      <button onClick={() => push('/produk')}>Login</button> <br />
-      <button onClick={() => handlerLogin()}>Login</button> <br />
 
-      <Link href="/auth/register">
-        Ke Halaman Register
-      </Link>
+      {/* Imperatif navigation */}
+      <button onClick={handlerLogin}>Login</button>
+      <br />
+
+      {/* Declarative navigation */}
+      <Link href="/auth/register">Ke Halaman Register</Link>
     </div>
   );
 };
