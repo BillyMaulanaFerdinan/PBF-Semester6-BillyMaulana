@@ -6,18 +6,17 @@ const HalamanLogin = () => {
 
   const handlerLogin = () => {
     // simulasi login berhasil
-    push("/produk"); // navigasi imperatif
+    localStorage.setItem("isLogin", "true");
+    push("/produk");
   };
 
   return (
     <div>
       <h1>Halaman Login</h1>
 
-      {/* Imperatif navigation */}
       <button onClick={handlerLogin}>Login</button>
       <br />
 
-      {/* Declarative navigation */}
       <Link href="/auth/register">Ke Halaman Register</Link>
     </div>
   );
