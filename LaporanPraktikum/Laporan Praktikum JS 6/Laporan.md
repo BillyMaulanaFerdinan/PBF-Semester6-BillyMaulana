@@ -57,3 +57,62 @@ Jalankan browser
 
 ## E. Tugas Praktikum
 
+### Tugas 1 (Wajib)
+
+Tambahkan:
+
+Judul halaman
+
+![alt text](<Screenshot 2026-03-04 032616.png>)
+
+Deskripsi singkat
+
+![alt text](<Screenshot 2026-03-04 032710.png>)
+
+Gambar ilustrasi
+
+- Sudah dilakukan di tugas 6
+
+### Tugas 2 (Wajib)
+
+Custom warna, font, dan layout halaman 404
+
+![alt text](<Screenshot 2026-03-04 033332.png>)
+
+![alt text](<Screenshot 2026-03-04 033341.png>)
+
+![alt text](<Screenshot 2026-03-04 033446.png>)
+
+Navbar tidak tampil di halaman 404
+
+![alt text](<Screenshot 2026-03-04 033352.png>)
+
+### Tugas 3 (Pengayaan)
+
+Tambahkan tombol:
+
+“Kembali ke Home”
+
+![alt text](<Screenshot 2026-03-04 033656.png>)
+
+Gunakan navigasi Next.js (Link)
+
+![alt text](<Screenshot 2026-03-04 033649.png>)
+
+## F. Pertanyaan Evaluasi
+
+1.Apa fungsi utama _document.js?
+
+Jawab: Untuk mengatur struktur dasar HTML (seperti html, head, dan body) pada aplikasi Next.js.
+
+2.Mengapa title tidak disarankan di _document.js?
+
+Jawab: Karena title seharusnya diatur per halaman (menggunakan Head), bukan global di _document.js.
+
+3.Apa perbedaan halaman biasa dan halaman 404.js?
+
+Jawab: 404.js ditampilkan otomatis saat user mengakses halaman yang tidak ada, sedangkan halaman biasa punya route normal.
+
+4.Mengapa folder public tidak perlu di-import?
+
+Jawab: Karena file di folder public bisa diakses langsung lewat URL tanpa perlu import.

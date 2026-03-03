@@ -1,7 +1,9 @@
 import { useRouter } from "next/router";
 import Navbar from "../navbar";
 
-const disableNavbar = ['/auth/login', '/auth/register' ];
+// routes where the navbar should not be rendered
+// include the custom 404 path so the navbar is hidden on error page
+const disableNavbar = ['/auth/login', '/auth/register', '/404'];
 
 
 type AppShellProps = {
