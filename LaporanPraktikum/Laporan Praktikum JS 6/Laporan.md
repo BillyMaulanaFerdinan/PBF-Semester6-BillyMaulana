@@ -45,4 +45,15 @@ Jalankan browser
 
 ![alt text](<Screenshot 2026-03-04 030843.png>)
 
-###
+### Langkah 6 – Menampilkan Gambar dari Folder Public
+
+Modifikasi kode pada 404.tsx:
+
+![alt text](<Screenshot 2026-03-04 031336.png>)
+
+Jalankan browser
+
+![alt text](<Screenshot 2026-03-04 031343.png>)
+
+## E. Tugas Praktikum
+
