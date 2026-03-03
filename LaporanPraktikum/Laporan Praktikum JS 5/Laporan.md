@@ -145,7 +145,12 @@ Jalankan browser
 
 • Terapkan Tailwind CSS
 
-
-
 • Gunakan minimal 5 utility class
 
+![alt text](<Screenshot 2026-03-04 021230.png>)
+
+![alt text](<Screenshot 2026-03-04 021243.png>)
+
+![alt text](<Screenshot 2026-03-04 021249.png>)
+
+![alt text](<Screenshot 2026-03-04 021259.png>)
