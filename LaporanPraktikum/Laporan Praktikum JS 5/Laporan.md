@@ -154,3 +154,20 @@ Jalankan browser
 ![alt text](<Screenshot 2026-03-04 021249.png>)
 
 ![alt text](<Screenshot 2026-03-04 021259.png>)
+
+## F. Pertanyaan Refleksi
+1.Kapan sebaiknya menggunakan CSS Module dibanding Global CSS?
+
+Jawab: CSS Module digunakan saat ingin styling khusus untuk satu komponen saja agar tidak bentrok dengan style komponen lain (lebih aman dan rapi)
+
+2.Apa kelemahan inline styling?
+
+Jawab: Sulit dikelola dan tidak reusable, karena style ditulis langsung di elemen dan tidak bisa dipakai ulang dengan mudah.
+
+3.Mengapa SCSS cocok untuk project skala besar?
+
+Jawab: Karena SCSS mendukung variabel, nesting, dan file terpisah (partial) sehingga kode lebih terstruktur dan mudah dirawat.
+
+4.Apa keunggulan Tailwind dibanding CSS tradisional?
+
+Jawab: Tailwind lebih cepat untuk membuat UI karena menyediakan utility class siap pakai tanpa harus menulis CSS dari nol.
