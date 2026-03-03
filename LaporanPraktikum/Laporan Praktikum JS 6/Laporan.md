@@ -31,4 +31,18 @@ Akses URL yang tidak ada
 
 ![alt text](<Screenshot 2026-03-04 030312.png>)
 
+### Langkah 5 – Styling Halaman 404
+
+Buat file: styles/404.module.scss
+
+![alt text](<Screenshot 2026-03-04 030832.png>)
+
+Modifikasi kode pada pages/404.tsx:
+
+![alt text](<Screenshot 2026-03-04 030819.png>)
+
+Jalankan browser
+
+![alt text](<Screenshot 2026-03-04 030843.png>)
+
 ###
