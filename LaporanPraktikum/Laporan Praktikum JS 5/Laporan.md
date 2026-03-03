@@ -67,7 +67,7 @@ Modifikasi index.tsx pada folder components/layouts/navbar
 
 ![alt text](<Screenshot 2026-03-04 002300.png>)
 
-### c
+### 8. SCSS (SASS)
 Install SASS
 
 ![alt text](<Screenshot 2026-03-04 003052.png>)
@@ -92,4 +92,25 @@ Jalankan browser
 
 ![alt text](<Screenshot 2026-03-04 003828.png>)
 
-###
+### 9. Tailwind CSS
+Install
+
+![alt text](<Screenshot 2026-03-04 012445.png>)
+
+Konfigurasi tailwind.config.js
+
+![alt text](<Screenshot 2026-03-04 012501.png>)
+
+Import di Global CSS
+
+![alt text](<Screenshot 2026-03-04 012537.png>)
+
+Modifikasi index.tsx pada folder auth/login/
+
+![alt text](<Screenshot 2026-03-04 012639.png>)
+
+Jalankan browser
+
+![alt text](<Screenshot 2026-03-04 012652.png>)
+
+##
