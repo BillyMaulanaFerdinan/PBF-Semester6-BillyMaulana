@@ -58,4 +58,13 @@ Jalankan browser
 
 ![alt text](<Screenshot 2026-03-04 001554.png>)
 
-###
+### 7. Kombinasi Global CSS + CSS Module
+Modifikasi global.css
+
+![alt text](<Screenshot 2026-03-04 002241.png>)
+
+Modifikasi index.tsx pada folder components/layouts/navbar
+
+![alt text](<Screenshot 2026-03-04 002300.png>)
+
+### 

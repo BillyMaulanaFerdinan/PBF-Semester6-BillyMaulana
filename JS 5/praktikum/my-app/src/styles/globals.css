@@ -19,7 +19,9 @@ a {
   text-decoration: none;
 }
 
-
+.big {
+  font-size: 1.5rem;
+}
 
 .footer {
   background-color: #333;
