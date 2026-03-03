@@ -113,4 +113,35 @@ Jalankan browser
 
 ![alt text](<Screenshot 2026-03-04 012652.png>)
 
-##
+## Tugas Praktikum
+
+### Tugas 1
+
+• Buat halaman Register
+
+![alt text](<Screenshot 2026-03-04 014134.png>)
+
+![alt text](<Screenshot 2026-03-04 014142.png>)
+
+• Gunakan CSS Module
+
+![alt text](<Screenshot 2026-03-04 014228.png>)
+
+### Tugas 2
+
+• Refactor halaman Produk ke folder views
+
+
+
+• Pisahkan Hero Section dan Main Section
+
+
+
+### Tugas 3
+
+• Terapkan Tailwind CSS
+
+
+
+• Gunakan minimal 5 utility class
+
