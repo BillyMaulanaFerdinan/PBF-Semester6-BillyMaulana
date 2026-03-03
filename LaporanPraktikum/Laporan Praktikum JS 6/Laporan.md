@@ -21,4 +21,14 @@ Modifikasi pages/index.tsx.
 
 ![alt text](<Screenshot 2026-03-04 025925.png>)
 
-### 
+### Langkah 4 – Membuat Custom Error Page (404)
+
+Di folder pages, buat file 404.tsx
+
+![alt text](<Screenshot 2026-03-04 030258.png>)
+
+Akses URL yang tidak ada
+
+![alt text](<Screenshot 2026-03-04 030312.png>)
+
+###
