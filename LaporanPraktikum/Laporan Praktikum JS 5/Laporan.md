@@ -49,4 +49,13 @@ Jalankan browser
 
 ![alt text](<Screenshot 2026-03-04 000706.png>)
 
+### 6. Inline Styling (CSS-in-JS)
+Modifikasi index.tsx pada folder views/auth/login
+
+![alt text](<Screenshot 2026-03-04 001548.png>)
+
+Jalankan browser
+
+![alt text](<Screenshot 2026-03-04 001554.png>)
+
 ###
