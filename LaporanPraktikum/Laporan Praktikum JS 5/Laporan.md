@@ -67,4 +67,29 @@ Modifikasi index.tsx pada folder components/layouts/navbar
 
 ![alt text](<Screenshot 2026-03-04 002300.png>)
 
-### 
+### c
+Install SASS
+
+![alt text](<Screenshot 2026-03-04 003052.png>)
+
+Tambahkan colors.scss pada folder styles
+
+Modifikasi colors.scss
+
+![alt text](<Screenshot 2026-03-04 003514.png>)
+
+Tambahkan file login.module.scss pada folder views/auth/login/
+
+Modifikasi index.tsx
+
+![alt text](<Screenshot 2026-03-04 003727.png>)
+
+Modifikasi login.module.scss
+
+![alt text](<Screenshot 2026-03-04 003821.png>)
+
+Jalankan browser
+
+![alt text](<Screenshot 2026-03-04 003828.png>)
+
+###
