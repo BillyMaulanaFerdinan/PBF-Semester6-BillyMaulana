@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import TampilanProduk from "../views/produk/index";
 
 const HalamanProduk = () => {
   const router = useRouter();
@@ -14,8 +15,7 @@ const HalamanProduk = () => {
 
   return (
     <div>
-      <h1>Halaman Produk</h1>
-      <p>Ini hanya bisa diakses jika sudah login</p>
+      <TampilanProduk />
     </div>
   );
 };

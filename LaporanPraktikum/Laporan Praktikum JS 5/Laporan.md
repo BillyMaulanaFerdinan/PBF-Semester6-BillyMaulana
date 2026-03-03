@@ -131,11 +131,15 @@ Jalankan browser
 
 • Refactor halaman Produk ke folder views
 
-
+![alt text](<Screenshot 2026-03-04 020228.png>)
 
 • Pisahkan Hero Section dan Main Section
 
+![alt text](<Screenshot 2026-03-04 020219.png>)
 
+![alt text](<Screenshot 2026-03-04 020213.png>)
+
+![alt text](<Screenshot 2026-03-04 020356.png>)
 
 ### Tugas 3
 
