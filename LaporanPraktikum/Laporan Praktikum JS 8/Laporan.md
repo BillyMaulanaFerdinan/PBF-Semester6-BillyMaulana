@@ -109,4 +109,32 @@ Bandingkan:
     - Menambah dependensi tetapi menghemat banyak kode dan bug.
     - Cocok ketika banyak komponen menggunakan data sama atau butuh UX responsif.
 
-### 
+## D. Tugas Praktikum
+
+Tugas Individu
+1.Jelaskan perbedaan:
+- Client Side Rendering
+    - Halaman dirender di browser setelah JavaScript dijalankan
+- Server Side Rendering
+    - Halaman dirender di server setiap ada request dari user.
+- Static Site Generation
+    - Halaman dirender saat build menjadi file HTML statis
+
+2.Buat halaman produk dengan:
+
+- Skeleton loading
+- Animasi
+
+![alt text](<Screenshot 2026-03-05 020904.png>)
+
+![alt text](<Screenshot 2026-03-05 020916.png>)
+
+![alt text](<Screenshot 2026-03-05 020925.png>)
+
+![alt text](<Screenshot 2026-03-05 020832.png>)
+
+![alt text](<Screenshot 2026-03-05 020837.png>)
+
+3.Refactor kode dari useEffect menjadi SWR.
+
+![alt text](<Screenshot 2026-03-05 020937.png>)
