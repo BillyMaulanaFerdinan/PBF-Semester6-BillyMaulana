@@ -97,4 +97,24 @@ Add field
 
 ![alt text](<Screenshot 2026-03-04 213443.png>)
 
-### 
+### Langkah 6 – Install Firebase
+
+npm install firebase
+
+![alt text](<Screenshot 2026-03-04 214554.png>)
+
+Buat folder dan file ts pada pages utlis/db/firebase.ts
+
+Copy paste yang ada pada kotak merah ke file firebase.ts
+
+![alt text](<Screenshot 2026-03-04 214954.png>)
+
+### Langkah 7 – Konfigurasi Environment Variable agar credensial firebase tidak dapat dilihat saat dipush di repository
+
+Buat file: .env.local
+
+Modifikasi file env
+
+
+
+###
