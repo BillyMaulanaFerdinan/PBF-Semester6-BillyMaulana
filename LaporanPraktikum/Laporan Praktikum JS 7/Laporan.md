@@ -149,4 +149,58 @@ Jalankan browser
 
 ![alt text](<Screenshot 2026-03-04 223028.png>)
 
-## 
+## Tugas Praktikum
+
+Tugas 1 (Wajib)
+
+• Tambahkan minimal 3 data produk di Firestore
+
+![alt text](<Screenshot 2026-03-04 225533.png>)
+
+• Pastikan data tampil di halaman produk
+
+![alt text](<Screenshot 2026-03-04 225542.png>)
+
+Tugas 2 (Wajib)
+
+• Tambahkan field baru:
+
+• category
+
+![alt text](<Screenshot 2026-03-04 225820.png>)
+
+• Tampilkan category di frontend
+
+![alt text](<Screenshot 2026-03-04 225929.png>)
+
+![alt text](<Screenshot 2026-03-04 225828.png>)
+
+Tugas 3 (Pengayaan)
+
+• Tambahkan tombol Refresh Data
+
+![alt text](<Screenshot 2026-03-04 230252.png>)
+
+![alt text](<Screenshot 2026-03-04 230344.png>)
+
+• Gunakan fetch ulang tanpa reload halaman
+
+![alt text](<Screenshot 2026-03-04 230312.png>)
+
+## G. Pertanyaan Evaluasi
+
+1.Apa fungsi API Routes pada Next.js?
+
+Jawab: Untuk membuat backend API langsung di dalam project Next.js (handle request/response seperti server).
+
+2.Mengapa .env.local tidak boleh di-push ke repository?
+
+Jawab: Karena berisi data sensitif (API key, password, dll) yang bisa disalahgunakan jika tersebar.
+
+3.Apa perbedaan data statis dan data dinamis?
+
+Jawab: Data statis tidak sering berubah (dibuat saat build), sedangkan data dinamis bisa berubah-ubah dan diambil saat runtime.
+
+4.Mengapa Next.js disebut framework fullstack?
+
+Jawab: Karena bisa menangani frontend (UI) dan backend (API & server logic) dalam satu framework.
