@@ -117,4 +117,10 @@ Modifikasi file env
 
 ![alt text](<Screenshot 2026-03-04 215606.png>)
 
+### Langkah 8 – Konfigurasi Firebase
+
+Modifikasi firebase.ts
+
+![alt text](<Screenshot 2026-03-04 215820.png>)
+
 ###
