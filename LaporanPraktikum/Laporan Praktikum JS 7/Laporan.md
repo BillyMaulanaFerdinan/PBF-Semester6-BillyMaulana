@@ -131,4 +131,22 @@ modifikasi file servicefirebase.js
 
 ![alt text](<Screenshot 2026-03-04 220122.png>)
 
-### 
+### Langkah 10 – API Mengambil Data Firebase
+
+Edit pages/api/product.js
+
+![alt text](<Screenshot 2026-03-04 222823.png>)
+
+Jalankan browser http://localhost:3000/api/produk
+
+![alt text](<Screenshot 2026-03-04 222829.png>)
+
+Modifikasi index.ts pada produk sesuaikan nama typenya dan db nya
+
+![alt text](<Screenshot 2026-03-04 223020.png>)
+
+Jalankan browser
+
+![alt text](<Screenshot 2026-03-04 223028.png>)
+
+## 
