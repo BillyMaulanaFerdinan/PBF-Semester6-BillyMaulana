@@ -48,4 +48,26 @@ Jalankan Browser
 
 ![alt text](<Screenshot 2026-03-05 005136.png>)
 
+### Bagian 3 – Implementasi Skeleton Loading
+
+Modfikasi file index.tsx pada folder views/product/index.tsx
+
+![alt text](<Screenshot 2026-03-05 005648.png>)
+
+Modifikasi file product.module.scss
+
+![alt text](<Screenshot 2026-03-05 010249.png>)
+
+Jalankan browser maka akan muncul skeleton yang terdapat animasi berkedip
+
+![alt text](<Screenshot 2026-03-05 010304.png>)
+
+Modifikasi pada index.tsx pada folder views/product/index.tsx
+
+![alt text](<Screenshot 2026-03-05 010417.png>)
+
+Jalankan browser maka akan muncul skeleton yang terdapat animasi berkedip
+
+![alt text](<Screenshot 2026-03-05 010334.png>)
+
 ###
