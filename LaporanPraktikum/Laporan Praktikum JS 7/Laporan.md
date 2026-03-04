@@ -123,4 +123,12 @@ Modifikasi firebase.ts
 
 ![alt text](<Screenshot 2026-03-04 215820.png>)
 
-###
+### Langkah 9 – Ambil Data dari Firestore
+
+Buat file ulits/db/servicefirebase.js
+
+modifikasi file servicefirebase.js
+
+![alt text](<Screenshot 2026-03-04 220122.png>)
+
+### 
