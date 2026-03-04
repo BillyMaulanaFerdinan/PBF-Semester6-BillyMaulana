@@ -115,6 +115,6 @@ Buat file: .env.local
 
 Modifikasi file env
 
-
+![alt text](<Screenshot 2026-03-04 215606.png>)
 
 ###
