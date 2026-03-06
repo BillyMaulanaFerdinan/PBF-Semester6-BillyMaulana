@@ -73,4 +73,42 @@ Uji 3 – Response HTML
 
 ![alt text](<Screenshot 2026-03-06 110822.png>)
 
-## 
+## D. Tugas Praktikum
+
+Tugas Individu
+1. Buat 2 halaman:
+- /products (CSR)
+- /products/server (SSR)
+2. Dokumentasikan:
+- Screenshot CSR
+- Screenshot SSR
+- Perbedaan Network tab
+- Perbedaan View Source
+
+    - CSR
+
+    ![alt text](<Screenshot 2026-03-06 111457.png>)
+
+    - SSR
+
+    ![alt text](<Screenshot 2026-03-06 111449.png>)
+
+3. Buat laporan analisis minimal 2 halaman.
+
+## E. Studi Analisis
+Jawab pertanyaan berikut:
+1. Mengapa SSR lebih baik untuk SEO?
+
+    Jawab: Karena konten HTML sudah dirender di server sehingga mudah dibaca oleh mesin pencari
+
+2. Kapan sebaiknya menggunakan SSR?
+
+    Jawab: Saat aplikasi memiliki data yang sering berubah dan perlu SEO yang baik.
+
+3. Apa kekurangan SSR dibanding CSR?
+
+    Jawab: Beban server lebih besar karena halaman dirender setiap request.
+
+4. Mengapa skeleton tidak muncul pada SSR?
+
+    Jawab: Karena halaman sudah dirender lengkap di server sebelum dikirim ke browser.
