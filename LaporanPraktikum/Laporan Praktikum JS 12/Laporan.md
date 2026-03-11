@@ -35,4 +35,18 @@ Buat file revalidate.ts pada folder pages/api/ dan modifikasi
 
 ![alt text](<Screenshot 2026-03-12 022431.png>)
 
-####
+### Bagian 2 – Tambahkan Parameter Data
+
+Modifikasi file revalidate.ts
+
+![alt text](<Screenshot 2026-03-12 024821.png>)
+
+Uji coba menambahkan parameter dan value pada url http://localhost:3000/api/revalidate?data=produk
+
+![alt text](<Screenshot 2026-03-12 024710.png>)
+
+Uji coba dengan url http://localhost:3000/api/revalidate?data=
+
+![alt text](<Screenshot 2026-03-12 024727.png>)
+
+### Bagian 3 – Tambahkan Token Security
