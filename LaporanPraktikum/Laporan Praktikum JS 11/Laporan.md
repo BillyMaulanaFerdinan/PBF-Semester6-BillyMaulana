@@ -107,4 +107,43 @@ Saat diklik salah satu produk
 
 ![alt text](<Screenshot 2026-03-12 003328.png>)
 
+### D. Pengujian
+
+Uji 1 – CSR
+- Refresh halaman detail
+- Perhatikan loading
+- Periksa Network → XHR → API request terlihat
+![alt text](<Screenshot 2026-03-12 004333.png>)
+
+Uji 2 – SSR
+- Refresh halaman detail
+- Tidak ada loading
+- Periksa Network → tidak terlihat fetch detail
+![alt text](<Screenshot 2026-03-12 004452.png>)
+
+Uji 3 – SSG ( Lakukan seperti langkah sebelumya pada Jobsheet 10)
+1. Jalankan:
+- npm run build
+- npm run start
+
+2. Tambahkan produk baru di database.
+![alt text](<Screenshot 2026-03-12 010601.png>)
+
+![alt text](<Screenshot 2026-03-12 010611.png>)
+
+3. Buka halaman detail produk baru:
+
+Tidak muncul.
+
+![alt text](<Screenshot 2026-03-12 003315.png>)
+
+4. Build ulang:
+
+- npm run build
+- npm run start
+
+Baru muncul.
+
+![alt text](<Screenshot 2026-03-12 010625.png>)
+
 ## 
