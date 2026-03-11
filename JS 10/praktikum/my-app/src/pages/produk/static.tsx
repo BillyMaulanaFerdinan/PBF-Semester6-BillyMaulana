@@ -7,7 +7,7 @@ const halamanProdukStatic = (props: {products:ProductType[ ]}) => {
         return (            
             <div>
                 <h1>Halaman Produk Static</h1>
-            <TampilanProduk products={products} />
+            <TampilanProduk products={products} isLoading={false} />
 
             </div>
         );
