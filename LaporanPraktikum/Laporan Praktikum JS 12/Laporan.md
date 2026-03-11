@@ -5,4 +5,6 @@
 
 Buka halaman static.tsx pada folder src/pages/produk
 
+![alt text](<Screenshot 2026-03-12 020226.png>)
+
 ### 
