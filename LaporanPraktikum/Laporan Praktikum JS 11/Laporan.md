@@ -76,4 +76,17 @@ Sehingga hasilnya seperti berikut
 
 ![alt text](<Screenshot 2026-03-12 000933.png>)
 
-###
+### Bagian 3 – Implementasi SSR
+
+Modifikasi [produk].tsx pada folder src/pages/produk dan comment line 9 sampai 20
+dikarena kita akan menggunakan metode SSR. Tambahkan beberapa kode untuk SSR
+
+![alt text](<Screenshot 2026-03-12 001938.png>)
+
+Jalankan browser http://localhost:3000/produk/server
+
+![alt text](<Screenshot 2026-03-12 001944.png>)
+
+![alt text](<Screenshot 2026-03-12 001950.png>)
+
+### Bagian 4 – Implementasi Static Site Generation (Dynamic SSG)
