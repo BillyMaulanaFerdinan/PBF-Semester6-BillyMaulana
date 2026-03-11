@@ -50,3 +50,13 @@ Uji coba dengan url http://localhost:3000/api/revalidate?data=
 ![alt text](<Screenshot 2026-03-12 024727.png>)
 
 ### Bagian 3 – Tambahkan Token Security
+
+Buka file .env dan modifikasi
+
+![alt text](<Screenshot 2026-03-12 025042.png>)
+
+Modifikasi file revalidate.ts tambahkan kondisi pada line 13 - 17
+
+![alt text](<Screenshot 2026-03-12 025228.png>)
+
+### E. Pengujian Manual Revalidation
