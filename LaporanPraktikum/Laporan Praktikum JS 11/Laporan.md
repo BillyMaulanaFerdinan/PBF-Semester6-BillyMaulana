@@ -90,3 +90,21 @@ Jalankan browser http://localhost:3000/produk/server
 ![alt text](<Screenshot 2026-03-12 001950.png>)
 
 ### Bagian 4 – Implementasi Static Site Generation (Dynamic SSG)
+
+Buka file [produk].tsx dan modifikasi seperti berikut
+
+![alt text](<Screenshot 2026-03-12 003146.png>)
+
+Buka file index.tsx pada folder src/views/DetailProduct dan modifikasi pada line 11
+
+![alt text](<Screenshot 2026-03-12 003251.png>)
+
+Jalankan browser http://localhost:3000/produk
+
+![alt text](<Screenshot 2026-03-12 003315.png>)
+
+Saat diklik salah satu produk
+
+![alt text](<Screenshot 2026-03-12 003328.png>)
+
+## 
