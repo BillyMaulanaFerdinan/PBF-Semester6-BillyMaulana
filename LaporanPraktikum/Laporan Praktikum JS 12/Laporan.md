@@ -27,4 +27,12 @@ Refresh setelah 10 detik → Data baru muncul.
 
 ![alt text](<Screenshot 2026-03-12 021935.png>)
 
-###
+## D. On-Demand Revalidation
+
+### Bagian 1 – Buat API Revalidate
+
+Buat file revalidate.ts pada folder pages/api/ dan modifikasi
+
+![alt text](<Screenshot 2026-03-12 022431.png>)
+
+####
