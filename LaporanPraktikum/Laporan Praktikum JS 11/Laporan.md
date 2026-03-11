@@ -146,4 +146,36 @@ Baru muncul.
 
 ![alt text](<Screenshot 2026-03-12 010625.png>)
 
-## 
+## E. Tugas Praktikum
+
+Tugas Individu
+
+1. Implementasikan halaman detail dengan:
+- CSR
+- SSR
+- SSG
+
+2. Buat tabel perbandingan:
+
+![alt text](<Screenshot 2026-03-12 011814.png>)
+
+3. Dokumentasikan:
+- Screenshot
+- Network tab
+- Build result
+
+## F. Pertanyaan Analisis
+1. Mengapa getStaticPaths wajib pada dynamic SSG?
+Jawab: Karena digunakan untuk menentukan daftar path/halaman dinamis yang akan dibuat saat proses build.
+
+2. Mengapa CSR membutuhkan loading state?
+Jawab: Karena data diambil dari client setelah halaman dimuat, sehingga perlu indikator loading.
+
+3. Mengapa SSG tidak menampilkan produk baru tanpa build ulang?
+Jawab: Karena halaman sudah dibuat saat build, sehingga data baru tidak muncul sampai build ulang dilakukan.
+
+4. Mana metode terbaik untuk halaman detail e-commerce?
+Jawab: SSR, karena dapat menampilkan data produk terbaru setiap request.
+
+5. Apa risiko menggunakan SSG untuk produk yang sering berubah?
+Jawab: Data yang ditampilkan bisa tidak up-to-date.
