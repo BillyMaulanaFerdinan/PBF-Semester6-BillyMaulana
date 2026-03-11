@@ -67,4 +67,59 @@ Jalankan kembali:
 
 ![alt text](<Screenshot 2026-03-11 204238.png>)
 
-##
+## D. Tugas Praktikum
+
+Tugas Individu
+
+1. Buat 3 halaman:
+- CSR
+![alt text](<Screenshot 2026-03-11 203823.png>)
+
+- SSR
+![alt text](<Screenshot 2026-03-11 203831.png>)
+
+- SSG
+![alt text](<Screenshot 2026-03-11 203817.png>)
+
+
+2. Lakukan pengujian:
+- Tambah data
+![alt text](<Screenshot 2026-03-11 205128.png>)
+
+![alt text](<Screenshot 2026-03-11 205140.png>)
+
+- Hapus data
+![alt text](<Screenshot 2026-03-11 205325.png>)
+
+![alt text](<Screenshot 2026-03-11 205335.png>)
+
+- Bandingkan hasil
+
+Setelah menambah
+
+![alt text](<Screenshot 2026-03-11 205218.png>)
+
+Setelah menghapus
+
+![alt text](<Screenshot 2026-03-11 205346.png>)
+
+3. Buat laporan analisis minimal 3 halaman.
+
+## E. Studi Analisis
+
+Jawab pertanyaan berikut:
+
+1. Mengapa SSG tidak menampilkan data terbaru?
+Jawab: Karena halaman dibuat saat proses build, sehingga data tidak berubah sampai dilakukan build ulang.
+
+2. Mengapa SSG lebih cepat?
+Jawab: Karena halaman sudah berupa file HTML statis yang langsung dikirim ke browser.
+
+3. Kapan SSG tidak cocok digunakan?
+Jawab: Saat aplikasi memiliki data yang sering berubah atau real-time.
+
+4. Mengapa e-commerce tidak cocok menggunakan SSG murni?
+Jawab: Karena data produk, stok, dan harga sering berubah sehingga membutuhkan data dinamis
+
+5. Apa perbedaan build mode dan development mode?
+Jawab: Development mode digunakan saat pengembangan dengan fitur live reload, sedangkan build mode menghasilkan versi optimasi siap produksi.
