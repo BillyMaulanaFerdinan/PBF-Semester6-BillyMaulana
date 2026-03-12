@@ -60,3 +60,19 @@ Modifikasi file revalidate.ts tambahkan kondisi pada line 13 - 17
 ![alt text](<Screenshot 2026-03-12 025228.png>)
 
 ### E. Pengujian Manual Revalidation
+
+Akses:
+
+http://localhost:3000/api/revalidate?data=products&token=12345678
+
+Jika benar:
+
+{ revalidate: true }
+
+![alt text](<Screenshot 2026-03-12 094515.png>)
+
+Jika token salah:
+
+![alt text](<Screenshot 2026-03-12 094538.png>)
+
+## 
