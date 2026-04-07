@@ -75,4 +75,41 @@ Jika token salah:
 
 ![alt text](<Screenshot 2026-03-12 094538.png>)
 
-## 
+## Tugas Individu
+1. Tambahkan lagi produk pada firebase
+
+
+2. Implementasikan ISR dengan revalidate: 10.
+
+
+3. Tambahkan endpoint On-Demand Revalidation.
+
+
+4. Tambahkan validasi token.
+
+
+5. Uji dengan:
+- Token benar
+
+
+- Token salah
+
+
+- Tanpa token
+
+
+## H. Pertanyaan Analisis
+1. Mengapa ISR lebih fleksibel dibanding SSG?
+Jawab: Karena halaman bisa diperbarui tanpa build ulang (re-generate otomatis).
+
+2. Apa perbedaan revalidate waktu dan on-demand?
+Jawab: Waktu: update berdasarkan interval tertentu, on-demand: update dipicu manual/API.
+
+3. Mengapa endpoint revalidation harus diamankan?
+Jawab: Untuk mencegah akses tidak sah yang bisa memicu rebuild halaman.
+
+4. Apa risiko jika token tidak digunakan?
+Jawab: Siapa pun bisa memicu revalidation, berpotensi disalahgunakan.
+
+5. Kapan ISR lebih cocok dibanding SSR?
+Jawab: Saat butuh data cukup up-to-date tanpa harus render di setiap request.
