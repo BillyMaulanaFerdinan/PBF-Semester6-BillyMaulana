@@ -29,4 +29,26 @@ Mengatasi pada bagian 3 maka perlu pembatasan route
 
 ![alt text](<Screenshot 2026-04-08 211910.png>)
 
-### 
+### Bagian 5 – Simulasi Sistem Login
+
+Modifikasi file middleware.ts
+
+![alt text](<Screenshot 2026-04-08 212240.png>)
+
+### D. Pengujian
+
+Uji 1 – isLogin = false
+
+![alt text](<Screenshot 2026-04-08 212409.png>)
+
+![alt text](<Screenshot 2026-04-08 212415.png>)
+
+Uji 2 – isLogin = true
+
+![alt text](<Screenshot 2026-04-08 212516.png>)
+
+![alt text](<Screenshot 2026-04-08 212524.png>)
+
+Uji 3 – Tambahkan Multiple Route
+
+![alt text](<Screenshot 2026-04-08 223001.png>)

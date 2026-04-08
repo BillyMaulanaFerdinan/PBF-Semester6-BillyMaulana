@@ -6,6 +6,9 @@ const TampilanLogin = () => {
 
   const handlerLogin = () => {
     // simulasi login berhasil
+    // set cookie so Next.js middleware (server-side) can read auth state
+    document.cookie = "isLogin=true; path=/; max-age=86400";
+    // keep localStorage for client-side checks if needed
     localStorage.setItem("isLogin", "true");
     push("/produk");
   };
