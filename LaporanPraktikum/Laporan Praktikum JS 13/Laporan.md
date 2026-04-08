@@ -16,3 +16,11 @@ Buat file: src/middleware.ts Sejajar dengan folder pages.
 ![alt text](<Screenshot 2026-04-08 210153.png>)
 
 ### Bagian 3 – Redirect Sederhana
+
+![alt text](<Screenshot 2026-04-08 211438.png>)
+
+Semua halaman akan redirect ke home dan error dikarenakan terus menerus loading
+
+![alt text](<Screenshot 2026-04-08 211454.png>)
+
+###
