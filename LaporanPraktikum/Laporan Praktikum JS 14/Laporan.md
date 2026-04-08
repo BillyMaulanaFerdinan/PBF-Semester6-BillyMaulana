@@ -13,4 +13,10 @@ Modifikasi file [...nextauth].ts:
 
 ![alt text](<Screenshot 2026-04-09 014409.png>)
 
-###
+### Bagian 3 – Tambahkan Secret
+
+Buka file .env.local dan tambahkan code pada line 12
+
+![alt text](<Screenshot 2026-04-09 014712.png>)
+
+### 
