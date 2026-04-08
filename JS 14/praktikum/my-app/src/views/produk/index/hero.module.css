@@ -1,0 +1,19 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(90deg, #f0f4ff, #ffffff);
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.hero h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+}
+
+.hero p {
+  margin: 0;
+  color: #555;
+}
