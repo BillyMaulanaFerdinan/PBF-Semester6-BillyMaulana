@@ -76,4 +76,30 @@ Ketika user klik signout maka akan kembali sign in
 
 ![alt text](<Screenshot 2026-04-09 020617.png>)
 
+### D. Menambahkan Data Tambahan (Full Name)
+
+Buka file [...nextauth].js dan tambahkan code pada line 22
+
+![alt text](<Screenshot 2026-04-09 021909.png>)
+
+Pada callbacks modifikasi codenya menjadi berikut :
+
+![alt text](<Screenshot 2026-04-09 021916.png>)
+
+Modifikasi navbar.module.scss
+
+![alt text](<Screenshot 2026-04-09 021925.png>)
+
+Modifikasi index.tsx pada folder components/layouts/navbar
+
+![alt text](<Screenshot 2026-04-09 022308.png>)
+
+Jalankan browser pada localhost
+
+![alt text](<Screenshot 2026-04-09 022144.png>)
+
+Lakukan sign in
+
+![alt text](<Screenshot 2026-04-09 022217.png>)
+
 ### 
