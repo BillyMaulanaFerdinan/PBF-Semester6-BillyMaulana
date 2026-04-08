@@ -19,4 +19,10 @@ Buka file .env.local dan tambahkan code pada line 12
 
 ![alt text](<Screenshot 2026-04-09 014712.png>)
 
+### Bagian 4 – Tambahkan SessionProvider
+
+Buka file _app.tsx dan modifikasi:
+
+![alt text](<Screenshot 2026-04-09 015101.png>)
+
 ### 
