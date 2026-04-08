@@ -131,4 +131,45 @@ Modifikasi file middleware.ts
 Jika user mengarahkan ke halaman profile tidak akan bisa, user akan diarahkan
 ke alamat localhost
 
-### 
+## h. Tugas Praktikum
+1. Implementasikan login menggunakan Credentials Provider.
+2. Tambahkan field full name.
+3. Tampilkan full name setelah login.
+4. Buat halaman profile.
+5. Lindungi halaman profile dengan middleware.
+6. Dokumentasikan:
+- Screenshot login
+
+![alt text](<Screenshot 2026-04-09 041429.png>)
+
+- Screenshot session
+
+![alt text](<Screenshot 2026-04-09 041449.png>)
+
+- Screenshot redirect middleware
+
+![alt text](<Screenshot 2026-04-09 041741.png>)
+
+berhasil akses page profile setelah login
+
+![alt text](<Screenshot 2026-04-09 041513.png>)
+
+saat ingin mengkases page profile akan kembali ke page utama jika tidak login
+
+![alt text](<Screenshot 2026-04-09 041706.png>)
+
+## i. Pertanyaan Analisis
+1. Mengapa session menggunakan JWT?
+Jawab: Karena tidak perlu penyimpanan server (stateless) dan mudah dikirim antar request.
+
+2. Apa perbedaan authorize() dan callback jwt()?
+Jawab: authorize() untuk validasi login user, sedangkan jwt() untuk mengatur data yang disimpan di token.
+
+3. Mengapa middleware perlu getToken()?
+Jawab: Untuk mengambil dan memverifikasi token user dari request.
+
+4. Apa risiko jika NEXTAUTH_SECRET tidak digunakan?
+Jawab: Token bisa tidak aman dan rentan dimanipulasi.
+
+5. Apa perbedaan autentikasi dan otorisasi dalam sistem ini?
+Jawab: Autentikasi memastikan siapa user, sedangkan otorisasi menentukan hak akses user.
