@@ -102,4 +102,33 @@ Lakukan sign in
 
 ![alt text](<Screenshot 2026-04-09 022217.png>)
 
+### E. Proteksi Halaman Profile
+
+Buat Halaman Profile
+
+pages/profile/index.tsx dan modifikasi file index.tsx
+
+![alt text](<Screenshot 2026-04-09 022836.png>)
+
+jalankan browser
+
+![alt text](<Screenshot 2026-04-09 022822.png>)
+
+Buat Middleware Authorization
+
+Buat file withAuth.ts dan folder dengan nama middleware di src
+
+![alt text](<Screenshot 2026-04-09 033344.png>)
+
+Modifikasi withAuth.ts
+
+![alt text](<Screenshot 2026-04-09 033920.png>)
+
+Modifikasi file middleware.ts
+
+![alt text](<Screenshot 2026-04-09 034143.png>)
+
+Jika user mengarahkan ke halaman profile tidak akan bisa, user akan diarahkan
+ke alamat localhost
+
 ### 
