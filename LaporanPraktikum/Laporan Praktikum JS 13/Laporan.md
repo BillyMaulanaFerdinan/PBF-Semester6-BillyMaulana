@@ -23,4 +23,10 @@ Semua halaman akan redirect ke home dan error dikarenakan terus menerus loading
 
 ![alt text](<Screenshot 2026-04-08 211454.png>)
 
-###
+### Bagian 4 – Batasi Route Tertentu
+
+Mengatasi pada bagian 3 maka perlu pembatasan route
+
+![alt text](<Screenshot 2026-04-08 211910.png>)
+
+### 
